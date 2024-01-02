@@ -1,1 +1,1 @@
-naoya0117.comへのリダイレクト
+- redirect to https://naoya0117.com
