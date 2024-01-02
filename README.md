@@ -1,1 +1,1 @@
-- redirect to https://naoya0117.com
+redirect to https://naoya0117.com
