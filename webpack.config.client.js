@@ -21,15 +21,6 @@ module.exports = {
     filename: "[name].js",
     publicPath: process.env.PUBLIC_URL || "/",
   },
-  devServer: {
-    static: {
-      directory: path.join(__dirname, "dist"),
-    },
-    compress: true,
-    port: 8080,
-    historyApiFallback: true,
-    open: true,
-  },
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
     alias: {

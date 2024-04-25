@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { ErrorBoundary } from 'react-error-boundary';
 import { HelmetProvider } from 'react-helmet-async';
-import { BrowserRouter as Router } from 'react-router-dom';
 import { AuthProvider } from './AuthProvider';
+const Router = typeof window !== 'undefined' ? require('react-router-dom').BrowserRouter : require('react-router-dom/server').StaticRouter;
+
 
 
 const ErrorFallback = () => {
